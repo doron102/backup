@@ -7,6 +7,14 @@ klippy_uds_address = ~/printer_data/comms/klippy.sock
 [file_manager]
 enable_object_processing = True
 
+[update_manager Klipper-Adaptive-Meshing-Purging]
+type = git_repo
+channel = dev
+path = ~/Klipper-Adaptive-Meshing-Purging
+origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
+managed_services = klipper
+primary_branch = main
+
 [authorization]
 cors_domains = 
 	https://my.mainsail.xyz
