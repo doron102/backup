@@ -33,6 +33,9 @@ mainsail_folder=~/mainsail
 ### The branch of the repository that you want to save your config
 ### By default that is 'main'
 branch=main
+=======
+### By default that is 'master'
+branch=master
 
 #####################################################################
 #####################################################################
